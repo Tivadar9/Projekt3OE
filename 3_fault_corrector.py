@@ -3,7 +3,7 @@
 # JSON fájl betöltése
 import pandas as pd
 
-file_path = "/Workspace/Users/tormasi.tivadar@stud.uni-obuda.hu/Drafts/car_sales_with_faults.json"
+file_path = "/Workspace/Users/tormasi.tivadar@stud.uni-obuda.hu/Projekt3OE/car_sales_with_faults.json"
 
 # Read JSON with pandas
 df_pandas = pd.read_json(file_path)
